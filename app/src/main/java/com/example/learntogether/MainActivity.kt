@@ -6,23 +6,23 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.Image                      // Composable pour afficher une image
-import androidx.compose.foundation.layout.Column               // Composable pour empiler des éléments verticalement
-import androidx.compose.foundation.layout.fillMaxSize          // Modificateur : occupe toute la taille disponible
-import androidx.compose.foundation.layout.fillMaxWidth         // Modificateur : occupe toute la largeur disponible
-import androidx.compose.foundation.layout.padding              // Modificateur : ajoute une marge intérieure
-import androidx.compose.material3.Scaffold                     // Structure de base d'un écran Material Design
-import androidx.compose.material3.Text                         // Composable pour afficher du texte
-import androidx.compose.runtime.Composable                     // Annotation qui déclare une fonction "Composable"
-import androidx.compose.ui.Modifier                            // Type utilisé pour personnaliser l'apparence des composables
-import androidx.compose.ui.layout.ContentScale                 // Définit comment une image doit s'adapter à son espace
-import androidx.compose.ui.res.painterResource                 // Charge une image depuis le dossier res/drawable
-import androidx.compose.ui.res.stringResource                  // Charge un texte depuis le fichier strings.xml
-import androidx.compose.ui.text.style.TextAlign                // Définit l'alignement du texte (gauche, centre, justifié...)
-import androidx.compose.ui.tooling.preview.Preview              // Annotation pour afficher un aperçu dans Android Studio
-import androidx.compose.ui.unit.dp                             // Unité de mesure pour les tailles/marges (density-independent pixels)
-import androidx.compose.ui.unit.sp                             // Unité de mesure pour la taille du texte (scale-independent pixels)
-import com.example.learntogether.ui.theme.LearnTogetherTheme   // Thème visuel généré automatiquement pour l'application
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign                
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.example.learntogether.ui.theme.LearnTogetherTheme
 
 // Point d'entrée de l'application : c'est la première classe exécutée au lancement
 class MainActivity : ComponentActivity() {
